@@ -1,0 +1,7 @@
+C:\Users\artur\source\repos\AppDemoDB7\AppDemoDB7\AppDemoDB7\bin\Debug\netstandard2.0\AppDemoDB7.deps.json
+C:\Users\artur\source\repos\AppDemoDB7\AppDemoDB7\AppDemoDB7\bin\Debug\netstandard2.0\AppDemoDB7.dll
+C:\Users\artur\source\repos\AppDemoDB7\AppDemoDB7\AppDemoDB7\obj\Debug\netstandard2.0\AppDemoDB7.csprojAssemblyReference.cache
+C:\Users\artur\source\repos\AppDemoDB7\AppDemoDB7\AppDemoDB7\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\artur\source\repos\AppDemoDB7\AppDemoDB7\AppDemoDB7\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\artur\source\repos\AppDemoDB7\AppDemoDB7\AppDemoDB7\obj\Debug\netstandard2.0\AppDemoDB7.AssemblyInfoInputs.cache
+C:\Users\artur\source\repos\AppDemoDB7\AppDemoDB7\AppDemoDB7\obj\Debug\netstandard2.0\AppDemoDB7.AssemblyInfo.cs
