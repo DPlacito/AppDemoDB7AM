@@ -8,7 +8,8 @@ using AppDemoDB7.UWP.SQLite;
 using System.IO;
 using Windows.Storage;
 using Xamarin.Forms;
-
+using AppDemoDB7;
+using AppDemo;
 
 [assembly: Dependency(typeof(FicDataBasePathSQLiteUWP))]
 namespace AppDemoDB7.UWP.SQLite

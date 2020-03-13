@@ -52,6 +52,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Syncfusion.Xamarin.SfDataGrid": {
+              "target": "Package",
+              "version": "[17.4.0.55, )"
+            },
             "System.ComponentModel.Annotations": {
               "target": "Package",
               "version": "[4.7.0, )"

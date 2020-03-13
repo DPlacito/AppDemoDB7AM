@@ -12,7 +12,7 @@ namespace AppDemoDB7.Context
 {
     public class FicGDBContext : DbContext
     {
-        private readonly string FicDataBasePath;
+        private readonly string FicLoDataBasePath;
         public DbSet<zt_cat_grupos> zt_cat_grupos { get; set; }
         public DbSet<zt_cat_productos> zt_cat_productos { get; set; }
         public DbSet<zt_cat_unidad_medidas> zt_cat_unidad_medidas { get; set; }
@@ -50,9 +50,9 @@ namespace AppDemoDB7.Context
             {
             }
         }
-        public FicGDBContext(string FicDataBasePath)
+        public FicGDBContext(string FicPaDataBasePath)
         {
-            this.FicDataBasePath = FicDataBasePath;
+            this.FicLoDataBasePath = FicPaDataBasePath;
             FicMetCreateDataBase();
             this.Database.SetCommandTimeout(200);
         }//Builder
@@ -69,18 +69,18 @@ namespace AppDemoDB7.Context
             }
         }
 
-        protected async override void OnConfiguring(DbContextOptionsBuilder FicOptionsBuilder)
+        protected async override void OnConfiguring(DbContextOptionsBuilder FicPaOptionsBuilder)
         {
             try
             {
-                if (!FicOptionsBuilder.IsConfigured)
+                if (!FicPaOptionsBuilder.IsConfigured)
                 {
 
-                    FicOptionsBuilder.UseSqlite($"Filename={FicDataBasePath}")
+                    FicPaOptionsBuilder.UseSqlite($"Filename={FicLoDataBasePath}")
                             .EnableSensitiveDataLogging(true)
                             .EnableDetailedErrors(true)
                             .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-                    base.OnConfiguring(FicOptionsBuilder);
+                    base.OnConfiguring(FicPaOptionsBuilder);
                 }
             }
             catch (Exception e)

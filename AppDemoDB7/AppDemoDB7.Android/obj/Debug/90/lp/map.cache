@@ -40,3 +40,8 @@ Xamarin.Essentials
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 SQLitePCLRaw.lib.e_sqlite3.android
+Syncfusion.Core.XForms.Android
+Syncfusion.SfComboBox.XForms.Android
+Syncfusion.SfDataGrid.XForms.Android
+Syncfusion.SfNumericTextBox.Android
+Syncfusion.SfNumericTextBox.XForms.Android
